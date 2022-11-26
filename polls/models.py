@@ -21,5 +21,5 @@ class Choice(models.Model):
   votes = models.IntegerField(default=0)
 
   #Changed representation of the object
-  def __str__(self) -> str:
+  def __str__(self):
     return self.choice_text
